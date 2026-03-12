@@ -14,6 +14,18 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=a5y17lte
 device.name2=SM-A520W
+device.name3=Samsung A5
+#device.name4=Guacamole
+#device.name5=OnePlus7
+#device.name6=guacamoleb
+#device.name7=OnePlus 7
+#device.name8=Guacamoleb
+#device.name9=OnePlus7ProNR
+#device.name10=OnePlus7ProTMO
+#device.name11=hotdogb
+#device.name12=hotdog
+#device.name13=OnePlus7T
+#device.name14=OnePlus7TPro
 supported.versions=
 supported.patchlevels=
 '; } # end properties
@@ -61,3 +73,4 @@ replace_string init.rc "cpuctl cpu,timer_slack" "mount cgroup none /dev/cpuctl c
 
 write_boot;
 ## end install
+
